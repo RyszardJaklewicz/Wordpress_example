@@ -1,6 +1,8 @@
 Description files
 
 single.php
+------------
+
 Pojedynczy wpis post w Wordpress bedzie wyswietlany przez plik single.php 
 jesli ten plik single.php znajdzie sie w katalogu templatki.
 W tym pliku mamy pe³na kontrole nad elementami ktore beda wyswietlane 
@@ -8,3 +10,9 @@ np data wpisu
 autor wpisu 
 komentarze wpisu 
 etc.
+
+category.php
+----------------
+Jeœli W Wordpresie w menu istnieje pozycja kategorie i jeœli istnieje w template plik
+category.php to po kliknieciu kategorii wyswietlanie danych nastapi przez plik category.php.
+Analogicznie jak w pliku single.php mamy mozliwoœæ kontroli nad danymi jakie s¹ wyœwietlane.
